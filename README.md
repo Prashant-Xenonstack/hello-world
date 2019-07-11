@@ -1,4 +1,3 @@
 # Data Structures
-This is my first GitHub respository
 
-In this repository I will upload code of diffrent data structure and there various operation
+This repository contains implementaion of different data strucures and there various operation.
