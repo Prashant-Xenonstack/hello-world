@@ -1,10 +1,10 @@
 package dsutility;
 
-class Node<T extends Comparable<T>> {
+class GenericNode<T extends Comparable<T>> {
 
 	private T data;
-	private Node<T> next;
-	public Node(T data) {
+	private GenericNode<T> next;
+	public GenericNode(T data) {
 		this.data = data;
 		this.next = null;
 	}
@@ -14,10 +14,10 @@ class Node<T extends Comparable<T>> {
 	public void setData(T data) {
 		this.data = data;
 	}
-	public Node<T> getNext() {
+	public GenericNode<T> getNext() {
 		return next;
 	}
-	public void setNext(Node<T> next) {
+	public void setNext(GenericNode<T> next) {
 		this.next = next;
 	}
 
